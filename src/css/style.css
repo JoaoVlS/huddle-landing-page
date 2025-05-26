@@ -12,7 +12,7 @@ main {
   flex-direction: column;
   padding: 25px 25px 0px 40px;
   margin: 0px 30px 0px 30px;
-  height: 92vh;
+  height: 100vh;
   max-width: var(--max-width-size);
 }
 
@@ -68,12 +68,15 @@ main {
 
 .social-media {
   display: flex;
+  height: inherit;  
+  flex-direction: column;
   justify-content: end;
+  margin-bottom: 25px;
 }
 
 .social-media ul {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   text-align: center;
 }
